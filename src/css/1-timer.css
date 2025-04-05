@@ -14,6 +14,13 @@
     text-align: center;
 }
 
+button:disabled {
+    background: #cfcfcf;
+    color: #666;
+    cursor: not-allowed;
+    border: none;
+}
+
 button[data-start] {
     padding: 10px 20px;
     font-size: 16px;
